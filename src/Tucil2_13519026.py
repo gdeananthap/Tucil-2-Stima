@@ -37,27 +37,29 @@ def removeMatkulFromPrereqOtherMatkul(matkul, listmatkul):
 
 def printKSM(ksm):
     for i in range(len(ksm)):
-        if(i==0):
-            print("Semester I : ", end="")
-        elif(i==1):
-            print("Semester II : ", end="")
-        elif(i==2):
-            print("Semester III : ", end="")
-        elif(i==3):
-            print("Semester IV : ", end="")
-        elif(i==4):
-            print("Semester V : ", end="")
-        elif(i==5):
-            print("Semester VI : ", end="")
-        elif(i==6):
-            print("Semester VII : ", end="")
-        else:
-            print("Semester VIII : ", end="")
-        for j in range(len(ksm[i])):
-            if(j == len(ksm[i])-1):
-                print(ksm[i][j]+'.')
+        if(len(ksm[i]) > 0):
+            if(i==0):
+                print("Semester I : ", end="")
+            elif(i==1):
+                print("Semester II : ", end="")
+            elif(i==2):
+                print("Semester III : ", end="")
+            elif(i==3):
+                print("Semester IV : ", end="")
+            elif(i==4):
+                print("Semester V : ", end="")
+            elif(i==5):
+                print("Semester VI : ", end="")
+            elif(i==6):
+                print("Semester VII : ", end="")
             else:
-                print(ksm[i][j]+', ', end="")
+                print("Semester VIII : ", end="")
+            for j in range(len(ksm[i])):
+                if(j == len(ksm[i])-1):
+                    print(ksm[i][j]+'.')
+                else:
+                    print(ksm[i][j]+', ', end="")
+
 
 # Pastikan file berada di folder test
 filename = input("Masukkan Nama File: ")
