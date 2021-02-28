@@ -93,26 +93,26 @@ def printKSM(ksm, X):
 
 def bootlogo():
     # Menampilkan boot logo aplikasi pada layar
-    print('                                                    ,---,_          ,                                               ')       
-    print('                                                     _>   ''-.  .--  /                                              ')      
-    print('                                                .--''` ._     `//   <_                                              ') 
-    print('                                                 >,-` ._`.. ..__ . ' '-.                                            ')   
-    print('                                              .-`   .``         ``.     `.                                          ')    
-    print('                                               >   / >`-.     .- < \ , `._\                                         ')     
-    print('                                              /    ;  -._>   <_.-`  ;  `._>                                         ')    
-    print('                                              `>  ,/  /___\ /___\  \_  /                                            ')        
-    print('                                              `.-|(|  \o_/  \o_/   |)|`                                             ')   
-    print('                                                  \;        \      ;/                                               ')    
-    print('                                                    \  .-,   )-.  /                                                 ')    
-    print('                                                     /`  .`-`.  `\                                                  ')      
-    print('                                                    ;_.-`.___. -.;                                                  ')   
-    print('                                _____    ____                         ______    __ __   _____                       ')
-    print('                               / ___/   /  _/                        / ____/   / //_/  / ___/                       ')
-    print('                               \__ \    / /          ______         / __/     / ,<     \__ \                        ')
-    print('                              ___/ /  _/ /          /_____/        / /___    / /| |   ___/ /                        ')
-    print('                             /____/  /___/                        /_____/   /_/ |_|  /____/                         ')
-    print('\n                                       Your Personal Course Enrollment Planner                                   \n')
-                                                                
+    print('                                          ,---,_          ,                                               ')       
+    print('                                           _>   ''-.  .--  /                                              ')      
+    print('                                      .--''` ._     `//   <_                                              ') 
+    print('                                       >,-` ._`.. ..__ . ' '-.                                            ')   
+    print('                                    .-`   .``         ``.     `.                                          ')    
+    print('                                     >   / >`-.     .- < \ , `._\                                         ')     
+    print('                                    /    ;  -._>   <_.-`  ;  `._>                                         ')    
+    print('                                    `>  ,/  /___\ /___\  \_  /                                            ')        
+    print('                                    `.-|(|  \o_/  \o_/   |)|`                                             ')   
+    print('                                        \;        \      ;/                                               ')    
+    print('                                          \  .-,   )-.  /                                                 ')    
+    print('                                           /`  .`-`.  `\                                                  ')      
+    print('                                          ;_.-`.___. -.;                                                  ')   
+    print('                      _____    ____                         ______    __ __   _____                       ')
+    print('                     / ___/   /  _/                        / ____/   / //_/  / ___/                       ')
+    print('                     \__ \    / /          ______         / __/     / ,<     \__ \                        ')
+    print('                    ___/ /  _/ /          /_____/        / /___    / /| |   ___/ /                        ')
+    print('                   /____/  /___/                        /_____/   /_/ |_|  /____/                         ')
+    print('\n                             Your Personal Course Enrollment Planner                                   \n')
+                         
 
 
 # Algoritma Program Utama
